@@ -8,6 +8,7 @@ spec:
   ports:
     - port: 3000
       targetPort: 3000
+      nodePort: 31515
   selector:
     app: jmeter-grafana
   type: NodePort
